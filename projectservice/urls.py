@@ -18,4 +18,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api-explorer/', include('rest_framework_swagger.urls')),
 ]
